@@ -69,9 +69,9 @@ Une interface web est créée pour permettre aux utilisateurs de saisir les info
    git clone https://github.com/votre-username/rpg_project.git
    ```
 
-2. Importez la base de données :
-   ```sql
-   -- Création de la base de données
+2. Importez la base de données :   
+```sql
+-- Création de la base de données
 CREATE DATABASE IF NOT EXISTS rpg_database;
 USE rpg_database;
 
