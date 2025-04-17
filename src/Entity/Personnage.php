@@ -1,5 +1,7 @@
-<?php abstract class Personnage {
+<?php
+abstract class Personnage {
     // Attributs protégés
+    protected $id;
     protected $nom;
     protected $genre;
     protected $classe;
@@ -22,12 +24,16 @@
     }
     
     // Méthodes getters
-    public function getNom() {
-        return $this->nom;
+    public function getId() {
+        return $this->id;
     }
     
     public function getGenre() {
         return $this->genre;
+    }
+    
+    public function getNom() {
+        return $this->nom;
     }
     
     public function getClasse() {
@@ -52,6 +58,43 @@
     
     public function getPointsDeMagie() {
         return $this->pointsDeMagie;
+    }
+    
+    // Méthodes setters
+    public function setId($id) {
+        $this->id = $id;
+    }
+    
+    public function setNom($nom) {
+        $this->nom = $nom;
+    }
+
+    public function setGenre($genre) {
+        $this->genre = $genre;
+    }
+
+    public function setClasse($classe) {
+        $this->classe = $classe;
+    }
+
+    public function setForce($force) {
+        $this->force = $force;
+    }
+
+    public function setAgilite($agilite) {
+        $this->agilite = $agilite;
+    }
+
+    public function setIntelligence($intelligence) {
+        $this->intelligence = $intelligence;
+    }
+
+    public function setPointsDeVie($pointsDeVie) {
+        $this->pointsDeVie = $pointsDeVie;
+    }
+
+    public function setPointsDeMagie($pointsDeMagie) {
+        $this->pointsDeMagie = $pointsDeMagie;
     }
     
     // Méthode abstraite à implémenter dans les classes enfants

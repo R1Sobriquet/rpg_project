@@ -1,6 +1,6 @@
-<?php 
-require_once 'src/controllers/PersonnageController.php';
-require_once 'src/interfaces/Combatant.php';
+<?php
+require_once __DIR__ . '/../Entity/Personnage.php';
+require_once __DIR__ . '/../Interface/Combatant.php';
 
 class Archer extends Personnage implements Combatant {
     public function __construct($nom, $genre, $classe, $force, $agilite, $intelligence, $pointsDeVie, $pointsDeMagie) {

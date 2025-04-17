@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /CodeSLAM/rpg_project/
+    
+    # Rediriger views/index.php vers la racine
+    RewriteRule ^views/index\.php$ index.php [L,R=301]
+    
+    # Corriger le double views
+    RewriteRule ^views/views/(.*)$ views/$1 [L,R=301]
+</IfModule>

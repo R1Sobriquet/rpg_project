@@ -1,5 +1,5 @@
-<?php 
-require_once 'src/controllers/PersonnageController.php';
+<?php
+require_once __DIR__ . '/../Entity/Personnage.php';
 
 class Mage extends Personnage {
     // Constructeur
@@ -13,4 +13,3 @@ class Mage extends Personnage {
         return $this->intelligence * 1.5; // Les mages utilisent l'intelligence pour leurs attaques
     }
 }
-

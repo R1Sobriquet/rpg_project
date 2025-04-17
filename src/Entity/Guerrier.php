@@ -1,5 +1,5 @@
-<?php 
-require_once 'src/controllers/PersonnageController.php';
+<?php
+require_once __DIR__ . '/../Entity/Personnage.php';
 
 class Guerrier extends Personnage {
     // Constructeur
