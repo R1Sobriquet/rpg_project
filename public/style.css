@@ -34,6 +34,7 @@
 }
 
 body {
+    background-image: url('https://i.imgur.com/wo9VWE1.jpeg');
     background-color: var(--dark-primary);
     color: var(--text-primary);
     background-image: var(--texture-overlay);
@@ -43,6 +44,7 @@ body {
 }
 
 /* ===== Background Image ===== */
+
 .background-container {
     background-image: url('https://i.imgur.com/wo9VWE1.jpeg');
     background-size: cover;
