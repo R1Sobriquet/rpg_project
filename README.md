@@ -157,7 +157,5 @@ Le projet suit une architecture Modèle-Vue-Contrôleur (MVC) :
 - Système de quêtes et de missions
 
 ## Auteur
-[Votre Nom] - [Votre Email]
+[LE ROUZIC Erwann] - [erwannn.pro@gmail.com]
 
-## Licence
-Ce projet est sous licence MIT - voir le fichier LICENSE pour plus de détails.
