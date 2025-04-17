@@ -1,0 +1,14 @@
+# Configuration spécifique à l'environnement
+config/database.php
+
+# Fichiers de configuration IDE
+.idea/
+.vscode/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Dépendances et dossiers générés
+vendor/
+node_modules/
